@@ -20,7 +20,7 @@ k_periods = 4
 p_cutoff = 0.1
 n_taps = 8  # seq_len has to be increased for this to be meaningful
 
-# inception
+# Visual Transformer
 n_blocks = 2
 n_heads = 2
 d_head = d_embd // n_heads
