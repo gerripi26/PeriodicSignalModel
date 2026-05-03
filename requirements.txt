@@ -1,0 +1,5 @@
+torch
+pandas
+numpy
+einops
+cupy-cuda11x
