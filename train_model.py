@@ -4,15 +4,6 @@ import pandas as pd
 from torch.utils.data import Dataset, DataLoader
 from model import model
 
-"""
-github: git add .
-git commit -m ""
-git push origin main
-"""
-
-
-
-
 # hyperparameters
 n_channels = 10
 
