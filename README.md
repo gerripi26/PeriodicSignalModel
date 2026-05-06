@@ -1,4 +1,4 @@
-**Overview**
+## Overview
 
 Time series analysis plays a central role in a wide range of applications, where modeling complex temporal variations remains a fundamental challenge. Directly learning these variations from one‑dimensional sequences is difficult due to intricate temporal patterns. 
 
@@ -9,7 +9,7 @@ The resulting 2D-representations are then processed by a vision-Transformer, whi
 The resulting one‑dimensional sequence captures the relevant information of the original signal and can be used for different time series analysis tasks, including forecasting, classification, and anomaly detection. In this work, the model is applied to forecasting weather time series.
 
 
-**Model Architecture**
+## Model Architecture
 
 Following the approach described above, the 1D time series data is transformed into  2D tensors that represent both intra- and interperiodic variations.
 Specifically, a Fourier transform is applied to the input sequence to determine a fixed number of frequencies with the highest amplitudes. For each of these dominant frequencies, the time series is then segmented into intervals corresponding to the respective period length, which are arranged row‑wise. In this 2D representation, the rows capture variations within a single period, while the columns describe variations at identical phase positions across multiple periods.
