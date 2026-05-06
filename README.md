@@ -4,9 +4,9 @@ Time series analysis plays a central role in a wide range of applications, where
 
 Motivated by the observation that many time series exhibit multiple underlying periodic structures, the temporal dynamics are decomposed into intra‑periodic variations (within a single peroid) and inter‑periodic variations (across periods at the same phase). To better expose these structures, the one‑dimensional time series is transformed into a set of two‑dimensional representations based on dominant periods, where rows and columns explicitly encode the two types of variation. This transformation embeds intra‑periodic and inter‑periodic variations into the columns and rows of the 2D tensors, respectively.
 
+The resulting 2D - representations are then processed by a vision-Transformer, which captures the relevant temporal patterns and reduces each 2D - tensor to a compact and informative 1D representation. The resulting 1D sequences are then combined into a single unified sequence, while taking into account the time‑dependent importance of each component using an adaptive weighting method.
 
-
-
+The resulting one‑dimensional sequence captures the relevant information of the original signal and can be used for different time series analysis tasks, including forecasting, imputation, classification, and anomaly detection. In this work, the model is applied to forecasting weather time series.
 
 
 **Model Description**
