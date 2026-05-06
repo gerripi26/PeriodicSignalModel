@@ -32,3 +32,4 @@ After processing by the Transformer block, the 2D time sequence is reshaped back
 
 The proposed architecture is designed as a general representation learning framework for time series analysis. It supports a range of downstream tasks, including forecasting, imputation, classification, and anomaly detection.
 
+In this work, the framework is applied to weather time series forecasting. Multiple variables are modeled simultaneously, allowing the joint prediction of channels such as temperature, humidity, and related meteorological signals.
