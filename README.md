@@ -1,11 +1,8 @@
 **Overview**
-Time series analysis plays a central role in a wide range of applications, where modeling complex temporal variations remains a fundamental challenge. Directly learning these variations from one‑dimensional sequences is difficult due to overlapping and multi‑scale temporal patterns.
 
-Motivated by the observation that many time series exhibit multiple underlying periodic structures, the temporal dynamics are decomposed into intra‑periodic variations (within a single cycle) and inter‑periodic variations (across aligned cycles). To better expose these structures, the one‑dimensional time series is transformed into a set of two‑dimensional representations based on dominant periods, where rows and columns explicitly encode the two types of variation.
+Time series analysis plays a central role in a wide range of applications, where modeling complex temporal variations remains a fundamental challenge. Directly learning these variations from one‑dimensional sequences is difficult due to intricate temporal patterns. 
 
-This representation enables complex temporal patterns to be modeled more effectively using two‑dimensional operations while remaining applicable across different time‑series analysis tasks. The resulting framework serves as a general backbone for extracting rich temporal features from periodic and quasi‑periodic signals.
-
-
+Motivated by the observation that many time series exhibit multiple underlying periodic structures, the temporal dynamics are decomposed into intra‑periodic variations (within a single peroid) and inter‑periodic variations ((across periods at the same phase). To better expose these structures, the one‑dimensional time series is transformed into a set of two‑dimensional representations based on dominant periods, where rows and columns explicitly encode the two types of variation. This transformation embeds intra‑periodic and inter‑periodic variations into the columns and rows of the 2D tensors, respectively.
 
 
 
